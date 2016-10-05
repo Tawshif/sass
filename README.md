@@ -1,33 +1,31 @@
-# Sass
+# Sass Topics
 
-## Topics
+##_partials
 
-_partials
-
-Nesting {...
+##Nesting {...
 	{...}
 }
 
-$Variables
+##$Variables
 -> global variable and local variables
 
-@include
+##@include
 
-@extend
+##@extend
 
-%placeholder
+##%placeholder
 
-@Mixins
+##@Mixins
 
-@if
+##@if
 
-@for
+##@for
 
-@each
+##@each
 
-@while
+##@while
 
-@function
+##@function
 
 
 
