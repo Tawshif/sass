@@ -1,0 +1,4 @@
+/node_modules
+/resources/vendor
+.sass-cache/
+*.css.map

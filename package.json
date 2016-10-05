@@ -1,0 +1,34 @@
+{
+  "name": "rawscript",
+  "version": "1.0.0",
+  "description": "js practice project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tawshif/rawScript.git"
+  },
+  "keywords": [
+    "js",
+    "practice"
+  ],
+  "author": "tawshif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tawshif/rawScript/issues"
+  },
+  "homepage": "https://github.com/Tawshif/rawScript#readme",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.0",
+    "grunt-sass-globbing": "^1.5.1",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}

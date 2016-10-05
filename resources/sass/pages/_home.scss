@@ -1,0 +1,12 @@
+main{
+  background: rgba(84, 84, 84, 1);
+  width: 80%;
+  margin: 0 auto;  
+}
+.inset-one {
+  @include text-inset(#fff, 0.3);
+}
+
+.inset-two {
+  @include text-inset(#000, 0.3);
+}

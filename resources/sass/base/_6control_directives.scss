@@ -1,0 +1,160 @@
+@if something == true/false {
+  
+} @else if {
+  
+} @else {
+  
+}
+
+@if something == true/false {
+  
+} @else {
+  
+}
+
+@if something == true/false {
+  
+}
+
+
+@mixin cars ($make, $color) {
+    .#{$make} {
+        border: 1px solid black;
+        background-image: url("#{$color}.png");
+    }
+}
+
+p{
+    @include cars(yellow , black);
+}
+
+/* For directive */
+
+// $columns: 12;
+// @for $i from 1 through $columns {
+//     .col-#{$i} {
+//         width: ((100 / $columns) * $i) * 1%;
+//     }
+// }
+
+// $length: 5;
+// @for $i from 1 through $length {
+//     .mr-#{$i} {
+//         margin-right: ($i);
+//     }
+// }
+
+
+// $i:1;
+// @while $i < 8 {
+
+//     .col-#{$i}{
+//       content: "#{$i}";  
+//     }
+
+
+//   $i : $i+1;
+// }
+
+
+
+
+
+
+
+/* Each directiv */
+
+// $type: monster;
+// p {
+//     @if $type==ocean {
+//         color: blue;
+//     }
+//     @else if $type==matador {
+//         color: red;
+//     }
+//     @else if $type==monster {
+//         color: green;
+//     }
+//     @else {
+//         color: black;
+//     }
+// }
+
+
+// @each $var in monster,ocean,matador {
+//     .para-#{$var} /* interpolation */{
+//         @if $var == ocean {
+//             color: blue;
+//         }
+//         @else if $var == matador {
+//             color: red;
+//         }
+//         @else if $var == monster {
+//             color: green;
+//         }
+//         @else {
+//             color: black;
+//         }
+//     }
+// }
+
+
+// $one : alert, yellow, red;
+// $two: success , white , green;
+// $three: back, white, blue; 
+
+// @each $type , $txt, $background in $one, $two, $three {
+//     .#{$type}-button {
+//         color: $txt;
+//         background: $background;  
+//     }
+// }
+
+
+/* sass functions and usages */
+
+// @function calc-percent( $target, $container) {
+    
+//     @return ($target/$container)*100%;
+// }
+
+// @function cp($target, $container) {
+    
+//     @return calc-percent( $target, $container);
+// }
+
+// @function getWidth( $val_one, $val_two) {
+//     @return $val_one + $val_two;
+// }
+
+// @function getHeight($v1 , $v2) {
+    
+//     @return getWidth($v1 , $v2) + 200 ;
+// }
+
+// $width_one : 320px;
+// $width_two : 375px;
+
+
+// .box{
+//     width: cp(320px , 960px); 
+// }
+
+// .boxTwo{
+//     width: getWidth($width_one, $width_two);
+//     height: getHeight($width_one, $width_two );  
+// }
+
+// @function text-contrast($background) {
+//     @if lightness($background) < 50% {
+//         @return lighten($background, 70%)
+//     }
+//     @else {
+//         @return darken($background, 70%);
+//     }
+// }
+
+// .text {
+//     color: text-contrast($white);
+//     background: $white;
+// }

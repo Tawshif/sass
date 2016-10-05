@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: yellow;
+  color: black;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+p .yellow {
+  border: 1px solid black;
+  background-image: url("black.png");
+}
+
+/* For directive */
+/* Each directiv */
+/* sass functions and usages */
+body {
+  background: #edf0f1;
+}
+
+main {
+  background: #545454;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.inset-one {
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.inset-two {
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+  color: #000;
+}
