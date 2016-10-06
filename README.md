@@ -2,12 +2,9 @@
 
 ##_partials
 
-##Nesting {...
-	{...}
-}
+##Nesting {}
 
 ##$Variables
--> global variable and local variables
 
 ##@include
 
